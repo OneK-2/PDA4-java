@@ -1,17 +1,21 @@
 public class Person {
     private String name;
-    private int age;
+    private Phone phone;
 
-    public Person(String name, int age) {
+    public Person(String name) {
         this.name = name;
-        this.age = age;
     }
 
     public String getName() {
         return name;
     }
 
-    public int getAge() {
-        return age;
+    public void buyPhone(Phone phone){
+        this.phone = phone;
+        this.phone.printLogo(name);
+    }
+
+    public void turnOn(){
+        this.phone.turnOn(name);
     }
 }
