@@ -1,3 +1,5 @@
+package login;
+
 public class User {
     private static Long idx = 0L;
     private Long pk;
