@@ -1,3 +1,5 @@
+package phone;
+
 public class Galaxy implements Phone {
 
 
@@ -10,5 +12,9 @@ public class Galaxy implements Phone {
     public void turnOn(String name) {
         System.out.println(name + "님이 삼송폰을 켰습니다.");
         System.out.println("*** 폰 켜지는 중 ***");
+    }
+    
+    public void onlyGalaxy(){
+        System.out.println("갤럭시만가능");
     }
 }
